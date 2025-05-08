@@ -4,8 +4,8 @@ tmp_dir = "tmp"
 
 [build]
   args_bin = []
-  bin = "tmp\\gopennypath.exe"
-  cmd = "go build -o ./tmp/gopennypath.exe ./cmd/gopennypath.go"
+  bin = "tmp\\gopennypath"
+  cmd = "go build -o ./tmp/gopennypath ./cmd/gopennypath.go"
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata", "client"]
   exclude_file = []
